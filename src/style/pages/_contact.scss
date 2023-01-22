@@ -128,33 +128,6 @@ color: aliceblue;
   width: 30%;
   max-width: 500px;
 
-  // @media screen and (max-width: 740px) {
-  //   height: 200px;
-  //   width: 100%;
-  //   max-width: 100%;
-  //   grid-template-rows: 1fr 1fr 1fr;
-  //   grid-template-columns: 1fr 1fr 1fr;
-  //   grid-template-areas:
-  //     "a b c"
-  //     "d d d"
-  //     "e e f";
-  // }
-  // @media screen and (max-width: 540px) {
-  //   grid-template-rows: repeat(3, 60px);
-  //   grid-template-columns: repeat(6, 1fr);
-  //   grid-template-areas:
-  //     "b b b c c c"
-  //     "d d d d d d"
-  //     "e e e e f f";
-  // }
-  // @media screen and (max-height: 500px) {
-  //   display: none;
-  // }
-  // @media screen and (min-width: 1200px) {
-  //   width: 35%;
-  //   height: 83%;
-  // }
-
   h4 {
     color: $color-4;
     font-size: 1.3rem;
