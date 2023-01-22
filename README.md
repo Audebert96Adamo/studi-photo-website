@@ -22,11 +22,11 @@ Pour ma part, j'ai utilisé:
 HTML/CSS
 Javascript et React
 
-3. télécharger lle dossier stidi-photo website soit en le clonnant avec https://github.com/Audebert96Adamo/studi-photo-website.git soit en utilisant donwload ZIP
-normalement tous les fichier nécéssaire au fonctionnement local sont disponible donc il ne rest plus qu'a utiliser npm start et 
+3. télécharger le dossier studi-photo website soit en le clonnant avec https://github.com/Audebert96Adamo/studi-photo-website.git soit en utilisant donwload ZIP
+normalement tous les fichiers nécéssaire au fonctionnement local sont disponible donc il ne rest plus qu'a utiliser npm start et 
 Vous pouvez désormais naviguer sur le site.
 
-pour le déploiement en ligne sur netlify utiliser npm run build vous obtiendrais alors un dossier build quil faudra ajouter sur netlify et voila ! 
+pour le déploiement en ligne sur netlify utiliser npm run build vous obtiendrais alors un dossier build qu'il faudra ajouter sur netlify et voila ! 
 
 
 npm i @emailjs/browser
