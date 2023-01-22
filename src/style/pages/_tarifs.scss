@@ -1,0 +1,78 @@
+body {
+  overflow: auto;
+}
+.tarifs {
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180px;
+    color: rgba(240, 241, 241, 0.856);
+  }
+  .tarifs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180px;
+    color: aliceblue;
+    background-color: black;
+    margin: 20px;
+    border-radius: 20px;
+    
+    .list {
+      display: flex;
+      flex-direction: column;
+      padding: 25px;
+      list-style: none;
+    }
+    .list li ul li{
+      margin: 10px;
+      line-height: 1rem;
+      letter-spacing: 2px;
+    }
+    .price {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .tarif-cat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(135, 137, 139, 0.678);
+      color: black;
+      padding: 15px;
+      margin: 3px;
+      border-radius: 5px;
+    }
+    img {
+      
+      width: 40%;
+      height: 200px;
+      border-radius: 25px;
+      margin: 5px auto;
+    }
+  }
+  .devis-container, .btn-devis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-devis {
+    margin: 15px;
+    background-color: rgba(135, 137, 139, 0.678);
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    color: aliceblue;
+  transition: 1.2s ease-out;
+  }
+  .btn-devis:hover {
+  background-color: rgba(126, 129, 131, 0.842);
+  color: rgb(183, 185, 187);
+  transition: 1.2s ease-out;
+  }
+}

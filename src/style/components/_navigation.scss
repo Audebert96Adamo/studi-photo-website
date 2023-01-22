@@ -1,0 +1,44 @@
+.navigation {
+  position: absolute;
+  top: 1rem;
+  left: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 28px;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: black;
+    top: -150px;
+    left: -160px;
+    z-index: -1;
+    animation: navAnim 20s infinite alternate;
+
+    @keyframes navAnim {
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    @media screen and (max-width: 430px){
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .nav-active {
+    font-size: 1.6rem;
+    color: aliceblue;
+  }
+
+  ul:hover li:not(:hover) {
+    opacity: 0.5;
+  }
+  ul:hover li:hover {
+    color: aliceblue
+  }
+}
